@@ -1,17 +1,24 @@
 const app = require('express')(); //<-- with two parentheses after one another means that the first require method return a function that is called by the second parenthesis
 let http = require('http').Server(app);
 let colors = require('colors');
+let io = require('socket.io')(http);
 
 colors.setTheme({
 
-custom: ["rainbow", "underline"]
+custom: ["red", "bold"]
 
 });
 
 app.get('/', function(req, res){
-    res.send('<h1>HERRRLO worrrld</h1>');
+    res.sendFile (__dirname + '/index.html');
 
 });
+
+io.on('connection', (socket) => {
+
+console.log('a user is connected');
+
+})
 
 http.listen(3000, () => {
 
