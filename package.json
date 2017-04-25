@@ -1,7 +1,7 @@
 {
   "name": "chattter",
   "version": "1.0.0",
-  "description": "A simple chat client made with Socket.io and Node.js!!",
+  "description": "A simple chat client made with Socket.io and Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
