@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Aknotofknots/chattter/issues"
   },
-  "homepage": "https://github.com/Aknotofknots/chattter#readme"
+  "homepage": "https://github.com/Aknotofknots/chattter#readme",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
 }
