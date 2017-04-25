@@ -11,17 +11,17 @@ custom: ["red", "bold"]
 
 app.get('/', function(req, res){
     res.sendFile (__dirname + '/index.html');
-
 });
 
 io.on('connection', (socket) => {
 
 console.log('a user is connected');
+    socket.on('chat message', (message) => {
+        io.emit('chat message', message);
+    })
 
-})
+});
 
 http.listen(3000, () => {
-
     console.log('listening on *:3000'.custom);
-
 });
