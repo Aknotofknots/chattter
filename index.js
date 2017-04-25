@@ -4,7 +4,7 @@ let colors = require('colors');
 
 colors.setTheme({
 
-custom: ["rainbow", "underline", "bold"]
+custom: ["rainbow", "underline"]
 
 });
 
