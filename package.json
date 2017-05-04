@@ -1,8 +1,8 @@
 {
   "name": "chattter",
   "version": "1.0.0",
-  "description": "A simple chat client made with Socket.io, Node.js and express",
-  "main": "index.js",
+  "description": "A simple chatbot made with Socket.io, Node.js and express",
+  "main": "./js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,7 @@
     "colors": "^1.1.2",
     "express": "^4.15.2",
     "nodemon": "^1.11.0",
+    "pug": "^2.0.0-rc.1",
     "socket.io": "^1.7.3"
   }
 }
