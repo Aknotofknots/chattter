@@ -1,0 +1,13 @@
+- var message ="Hi";
+
+doctype html
+html(lang='en')
+    include head.pug
+    body
+        h1= message
+        include chatwindow
+        include submitForm
+        script(src="/socket.io/socket.io.js")
+        script(src="https://code.jquery.com/jquery-1.11.1.js")
+        script(src="js/client.js")
+        script(src="js/bootstrap.min.js")

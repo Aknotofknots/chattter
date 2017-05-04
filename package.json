@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Aknotofknots/chattter#readme",
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "colors": "^1.1.2",
     "express": "^4.15.2",
     "nodemon": "^1.11.0",

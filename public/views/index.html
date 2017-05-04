@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf8">
+    <title>Socket.IO chat</title>
+
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+<ul id="messages"></ul>
+
+<form class="form-group">
+    <input class="form-control" id="m" autocomplete="off"/>
+    <button class="btn btn-success">Send</button>
+</form>
+
+
+<!--Third party and user agent scripts-->
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="js/client.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
