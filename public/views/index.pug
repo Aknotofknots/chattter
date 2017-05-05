@@ -1,10 +1,13 @@
-- var message ="Hi";
+- var welcomeMsg = 'Welcome !';
+- var msg = 'Please ask Chattter the chatbot any of the following questions';
 
 doctype html
 html(lang='en')
     include head.pug
     body
-        h1= message
+        h1= welcomeMsg
+        strong= msg
+        include questions
         include chatwindow
         include submitForm
         script(src="/socket.io/socket.io.js")
